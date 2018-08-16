@@ -1,3 +1,36 @@
 html {
   font-size: 8px;
 }
+
+.header {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top-left img{
+  margin-left: 3rem;
+  height: 4rem;
+}
+
+.top-left h2{
+  font-size: 2rem;
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.nav-items {
+  margin-right: 2rem;
+}
