@@ -2,6 +2,10 @@ html {
   font-size: 8px;
 }
 
+.background {
+  background-color: rgb(212, 216, 216);
+}
+
 /*----------------------------HEADER-----------------------*/
 
 .header {
@@ -41,7 +45,6 @@ html {
 
 
 .banner {
-  background-color: rgb(212, 216, 216);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -86,4 +89,78 @@ html {
   text-align: center;
   padding: 1rem 0;
   font-size: 1.25rem;
+}
+
+/*----------------------------MAIN SECTION-----------------------*/
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.main .practice {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 4rem 3rem 4rem 3rem;
+}
+
+.main .practice img {
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 3rem;
+  color: rgb(49, 52, 53);
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.main h3 {
+  font-size: 1.2rem;
+  color: rgb(100, 100, 100);
+  font-family: Helvetica;
+}
+
+.main h4 {
+  color: rgb(100, 100, 100);
+  font-family: Helvetica;
+  margin-top: 4rem;
+}
+
+.main h2 {
+  font-size: 1.5rem;
+  color: rgb(49, 52, 53);
+  line-height: 3.5rem;
+  vertical-align: center;
+}
+
+.main .info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .info .block {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .info .block img{
+  width: 35%;
+  height: 35%;
+  margin: 2rem;
+}
+
+.main .info .block .text{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main .info .block .text a{
+  line-height: 3rem;
 }
