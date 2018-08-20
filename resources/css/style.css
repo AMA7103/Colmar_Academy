@@ -164,3 +164,55 @@ html {
 .main .info .block .text a{
   line-height: 3rem;
 }
+
+/*----------------------------COURSE SECTION-----------------------*/
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  width: 20rem;
+  margin: 0 2rem 2rem 4rem;
+  background-color: white;
+}
+
+.courses img {
+  height: auto;
+  width: 100%;
+}
+
+.courses h1 {
+  margin: 4rem;
+  font-size: 3rem;
+  color: rgb(49, 52, 53);
+  text-decoration: underline;
+}
+
+.courses h2 {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: rgb(49, 52, 53);
+}
+
+.courses h3 {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: rgb(100, 100, 100);
+}
+
+#space {
+  margin-bottom: 1.5rem;
+}
