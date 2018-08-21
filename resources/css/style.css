@@ -295,3 +295,29 @@ video {
   font-size: 1.2rem;
   color: rgb(100, 100, 100);
 }
+
+/*----------------------------FOOTER-----------------------*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: solid 1px black;
+}
+
+.footer .terms-privacy {
+  display: flex;
+  width: 7.5%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.footer h4 {
+  color: rgb(100, 100, 100);
+  font-family: Helvetica;
+}
+
+#left {
+  margin: 2rem 0 4rem 3rem;
+}
