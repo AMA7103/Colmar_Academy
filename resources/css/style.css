@@ -110,6 +110,30 @@ html {
   font-size: 1.25rem;
 }
 
+@media only screen and (max-width: 930px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner .main {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+  .banner .main img {
+    height: auto;
+    width: 100%;
+  }
+  .banner .text {
+    height: 100%;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .banner h4 {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
 /*----------------------------MAIN SECTION-----------------------*/
 
 .main {
@@ -151,7 +175,6 @@ html {
 .main h2 {
   font-size: 1.5rem;
   color: rgb(49, 52, 53);
-  line-height: 3.5rem;
   vertical-align: center;
 }
 
@@ -182,6 +205,26 @@ html {
 
 .main .info .block .text a{
   line-height: 3rem;
+}
+
+#info-hide {
+  display: none;
+}
+
+@media only screen and (max-width: 930px) {
+  #info {
+    display: none;
+  }
+  #info-hide {
+    display: inline-block;
+  }
+  .main .practice {
+    display: none;
+  }
+  .main .info {
+    width: 100%;
+    margin-bottom: 3rem;;
+  }
 }
 
 /*----------------------------COURSE SECTION-----------------------*/
@@ -216,6 +259,7 @@ html {
   font-size: 3rem;
   color: rgb(49, 52, 53);
   text-decoration: underline;
+  text-align: center;
 }
 
 .courses h2 {
@@ -315,6 +359,25 @@ video {
   color: rgb(100, 100, 100);
 }
 
+@media only screen and (max-width: 676px) {
+  .thesis .content .projects {
+    display: none;
+  }
+  .thesis h2 {
+    display: none;
+  }
+  .thesis h3 {
+    display: none;
+  }
+  .thesis .content .reimagine {
+    width: 100%;
+    margin: 0;
+  }
+  .thesis {
+    margin-bottom: 2rem;
+  }
+}
+
 /*----------------------------FOOTER-----------------------*/
 
 .footer {
@@ -339,4 +402,16 @@ video {
 
 #left {
   margin: 2rem 0 4rem 3rem;
+}
+
+@media only screen and (max-width: 565px) {
+  .footer .terms-privacy {
+    display: none;
+  }
+  .footer {
+    justify-content: center;
+  }
+  #left {
+    margin-left: 0;
+  }
 }
